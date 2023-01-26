@@ -10,7 +10,7 @@ body{
 }
 .container{
   background-color: hsl(216, 50%, 16%);
-  max-width: 365px;
+  max-width: 350px;
  /* width: 20%;
   height: 40%;*/
   margin: auto;
@@ -26,17 +26,10 @@ body{
   margin-right: auto;
   margin-left: auto;
 }
-.image img:active{
-  background-image: url(images/icon-view.svg);
-  background-color: hsl(178, 100%, 50%);
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
 .image h3{
   color: hsl(0, 0%, 100%);
   font-size: 1rem;
-  margin: 5%;
+  margin: 0.5rem;
 }
 .image h3:hover{
   color: hsl(178, 100%, 50%);
@@ -46,7 +39,7 @@ body{
   color: hsl(215, 51%, 70%);
   font-size: 1.5em;
   font-weight: 300;
-  margin: 5%;
+  margin: 0.5rem;
 }
 .eth{
   display: flex;
@@ -54,7 +47,7 @@ body{
   justify-content: space-between;
   color: hsl(178, 100%, 50%);
   text-align: bottom;
-  margin: 5%;
+  margin: 0.5rem;
 }
 hr{
   border-top: 1% solid hsl(215, 32%, 27%);
@@ -81,12 +74,3 @@ footer{
   color: hsl(215, 51%, 70%);
 }
 /***** mobile resposiveness*****/
-@media screen and (max-width: 365px){
-  .container{
-    width: 70%;
-    height: 80%;
-  }
-  .text{
-    font-size: 1.0em;
-  }
-}
