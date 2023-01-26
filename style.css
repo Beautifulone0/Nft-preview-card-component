@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(217, 54%, 11%);
+  font-family: outfit;
+  font-size: 0.8em;
+}
+.container{
+  background-color: hsl(216, 50%, 16%);
+  max-width: 365px;
+ /* width: 20%;
+  height: 40%;*/
+  margin: auto;
+  margin-top: 5%;
+  padding: 2%;
+  border-radius: 1rem;
+}
+.image img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.image img:active{
+  background-image: url(images/icon-view.svg);
+  background-color: hsl(178, 100%, 50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.image h3{
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  margin: 5%;
+}
+.image h3:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.text{
+  color: hsl(215, 51%, 70%);
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 5%;
+}
+.eth{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: hsl(178, 100%, 50%);
+  text-align: bottom;
+  margin: 5%;
+}
+hr{
+  border-top: 1% solid hsl(215, 32%, 27%);
+}
+.avatar{
+  display: flex;
+  gap: 0.5rem;
+  margin: 5%;
+  color: hsl(215, 51%, 70%);
+}
+.avatar img{
+  width: 10%;
+  height: 10%;
+}
+span{
+  color: hsl(0, 0%, 100%);
+}
+span:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+footer{
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+}
+/***** mobile resposiveness*****/
+@media screen and (max-width: 365px){
+  .container{
+    width: 70%;
+    height: 80%;
+  }
+  .text{
+    font-size: 1.0em;
+  }
+}
